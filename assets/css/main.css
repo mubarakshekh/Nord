@@ -258,3 +258,41 @@ footer span
     display: none;
 }
 /* footer styling completed here */
+/*
+css validating error
+145		Parse Error /* .words { width: 50%; text-align: center; */ }
+233	footer img	Value Error : margin , is an incorrect operator : 50px,0
+warnning
+
+197	input	Same color for background-color and border-top-color
+197	input	Same color for background-color and border-right-color
+197	input	Same color for background-color and border-bottom-color
+197	input	Same color for background-color and border-left-color
+203	form button	Same color for background-color and border-top-color
+203	form button	Same color for background-color and border-right-color
+203	form button	Same color for background-color and border-bottom-color
+203	form button	Same color for background-color and border-left-color
+
+wrapper class have some width with margin auto
+
+postion of header must be included with fixed
+
+a tag must be come with title
+
+html is not proper commented
+
+textcapitalization must be apply to first letter only
+
+color must be specified in hex code or rgb code
+
+1000+ is italic
+
+apply container 100% width
+
+avoid use of height
+
+align pragraph properly
+
+space between the two buttons in stating
+
+*/
