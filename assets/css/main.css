@@ -1,0 +1,260 @@
+/* some common and container styling here starts */
+
+
+.wrapper
+{
+    text-align: center;
+}
+
+ul
+{
+ list-style: none;
+}
+/* some common and container styling ends here */
+
+
+/* header styling start here */
+
+header
+{
+    background-color: transparent;
+}
+
+header li
+{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+header img
+{
+    float: left;
+    height: 50px;
+    width: 150px;
+}
+
+header ul
+{
+    float: right;
+    margin: 10px;
+}
+
+header span
+{
+    display: none;
+}
+
+header li a
+{
+    padding: 10px 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#000; 
+}
+
+header li a:hover
+{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+
+/*  header styling completed here */
+
+
+/* main styling starts from here */
+
+/* join more sectoion is starting from here*/
+
+.introduction
+{
+
+    background-color: darkcyan;
+}
+
+.introduction-image img
+{
+    float: left;
+    height: 400px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.introduction-image
+{
+    /* text-align: center; */
+}
+
+h2
+{
+    padding: 50px 0px;
+    /* color: rgb(54, 46, 46); */
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+h2 span
+{
+    color: azure;
+}
+
+.introduction-text
+{
+    position: relative;
+   float: right;
+   width: 50%;
+   text-align: left
+}
+
+.introduction-text img
+{
+   height: 75px;
+   width: 150px;
+   /* position: absolute; */
+   /* right: 50px; */
+   /* bottom: 5px; */
+   padding-top: 50px;
+}
+
+
+
+
+/* join more sectoion is ending here*/
+
+/* what you get sectoion is starting from here*/
+
+.what-get
+{
+    background-color: dimgrey;
+}
+
+/* what you get sectoion is ending here*/
+
+/* some words sectoion is starting from here*/
+
+.some-words
+{
+    background-color: darkcyan;
+}
+/* .words
+{
+width: 50%;
+text-align: center; */
+}
+.some-words_1 h2
+{
+ color: #fff;
+}
+.some-words_2
+{
+    float: left;
+}
+
+.some-words_3_comments
+{
+    height: 100px;
+    width: 150px;
+    background-color: #fff;
+    float: right;
+}
+.some-words_3_comments span
+{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+
+}
+/* some words sectoion is ending here*/
+
+/* join us sectoion is starting from here*/
+
+.join-us
+{
+    background-color: dimgrey;
+}
+
+.join-us h2
+{
+    color: #fff;
+
+}
+
+.join-us p
+{
+    color:#fff;
+    
+}
+
+form{
+    padding: 50px 0px;
+}
+
+input
+{
+width: 250px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+form button{
+    color: aqua;
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+input::placeholder
+{
+    color: #000;
+    padding-left: 5px; 
+}
+
+
+/* join us sectoion is ending here*/
+
+/* main styling ends here */
+
+
+/* footer stylings are given here */
+
+footer
+{
+    background-color: #fff;
+
+}
+
+footer img
+{
+    height: 50px;
+    width: 150px;
+    /* text-align: center; */
+    /* display: inline-block; */
+    margin: 50px, 0px;
+    /* padding: 20px, 0px; */
+}
+
+
+footer p
+{
+    text-transform: capitalize;
+}
+
+footer p a
+{
+    text-transform: uppercase;
+    color: darkorchid;
+    text-decoration: none;
+}
+
+footer .wrapper
+{
+    text-align: center;
+}
+
+footer span
+{
+    /* text-indent: - */
+    display: none;
+}
+/* footer styling completed here */
